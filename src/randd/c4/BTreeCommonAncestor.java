@@ -31,7 +31,10 @@ public class BTreeCommonAncestor {
 	
 	private static boolean isChild(BinaryTree root, BinaryTree a) {
 		boolean out  = false;
-
+		if (root== null) {
+			return false;
+		}
+		
 		if (root.left == null && root.right == null) {
 			return out;
 		}
