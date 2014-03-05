@@ -1,4 +1,4 @@
-package c5;
+package randd.c5;
 
 public class StringToBinary {
 
